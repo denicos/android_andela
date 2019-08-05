@@ -82,6 +82,7 @@ public class DealActivity extends AppCompatActivity {
                 Toast.makeText(this, "Deal saved", Toast.LENGTH_LONG).show();
                 backToList();
                 return true;
+
             case R.id.delete_menu:
                 deleteDeal();
                 Toast.makeText(this, "Deal Deleted", Toast.LENGTH_SHORT).show();
