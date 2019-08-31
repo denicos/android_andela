@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "409427577760",
+    "firebase_url": "https://nicosconsulting.firebaseio.com",
+    "project_id": "nicosconsulting",
+    "storage_bucket": "nicosconsulting.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409427577760:android:cc0fef7a427cc994",
+        "android_client_info": {
+          "package_name": "com.example.nicosconsulting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409427577760-i37r9bb07o2n3poe8ukdbfvpqmhb6538.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm2_nwvfWO48T2ds4Zzh5xpKrdIH_bANY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409427577760-i37r9bb07o2n3poe8ukdbfvpqmhb6538.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
