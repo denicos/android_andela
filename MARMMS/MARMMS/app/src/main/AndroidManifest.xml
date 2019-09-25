@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ug.ac.slau.marmms">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".splash"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login"
+            android:label="Login" />
+        <activity android:name=".signup" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="Settings" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="About MAARMS" />
+        <activity
+            android:name=".TermsconditionsActivity"
+            android:label="Terms &amp; Conditions" />
+        <activity
+            android:name=".AddPatient"
+            android:label="Add New Patient" />
+        <activity
+            android:name=".ListAllPatients"
+            android:label="List All Patients" />
+        <activity android:name=".AddAppointment" />
+        <activity
+            android:name=".ListAllAppointments"
+            android:label="List All Appointments" />
+        <activity
+            android:name=".AddTest"
+            android:label="Add New Test " />
+        <activity
+            android:name=".ListAllTests"
+            android:label="List All Tests" />
+        <activity
+            android:name=".AddMedicationRecord"
+            android:label="Add New Medication Record" />
+        <activity
+            android:name=".ListAllMedicationRecords"
+            android:label="List All Medication Records" />
+        <activity
+            android:name=".AddVisitationRecord"
+            android:label="Add New Visitation Record" />
+        <activity
+            android:name=".ListAllVisitationRecords"
+            android:label="List All Visitation Records" />
+        <activity
+            android:name=".GenerateReports"
+            android:label="Generate Reports" />
+        <activity
+            android:name=".PatientDetails"
+            android:label="@string/title_activity_patient_details"
+            android:parentActivityName=".ListAllPatients"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ug.ac.slau.marmms.ListAllPatients" />
+        </activity>
+    </application>
+
+</manifest>

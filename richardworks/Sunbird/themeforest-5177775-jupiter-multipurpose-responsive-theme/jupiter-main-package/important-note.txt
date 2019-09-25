@@ -1,0 +1,39 @@
+
+
+**** Important Note : ****
+
+If you wonder what is Jupiter X in the download package please read this note :
+
+As some of you may know, we have released Jupiter X on first of December 2018 as a new WordPress theme, It does not replace Jupiter V6 for those who have been using it, instead its a new alternative for your next projects. It's not an upgrade, instead its a new option for you if you are interested. Jupiter V6.x will be here for a long time and we will keep providing updates to support for the timeframe we promise.
+
+
+
+
+**** What is Jupiter X? ****
+
+It's a new Wordpress theme developed with modern technologies, trends, and standards (Read more here : http://bit.ly/2FemfjF). You can use Jupiter X to develop new websites or migrate from Jupiter V6.x with the help of some tools that will be released by Artbees very soon.
+
+
+
+
+
+**** Can I keep using Jupiter? ****
+
+Yes! definitely, you can use Jupiter v6.x and we will keep supporting it for an indefinite time. So we will provide plugin compatibility, security fixes, bug fixes, and improvements so you rest assured that your site will work with issues.
+
+
+
+
+**** How can I download Jupiter V6.x? ****
+
+You can download legacy Jupiter through 3 methods :
+1. Envato download package (you should find a folder called “Jupiter”)
+2. Your WordPress dashboard > Jupiter > Updates pane
+3. Artbees Themes websites > your dashboard > product releases
+
+
+
+
+**** How can I upgrade to Jupiter X? ****
+
+Very soon we are going to provide WpBakery Page Builder for Jupiter X as well as a tool that will help you migrate your theme options. Even though we recommend you to use Elementor as your page builder, but WBakery Page builder will still work with Jupiter X.
