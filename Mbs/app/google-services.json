@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "472122930824",
+    "firebase_url": "https://riembs.firebaseio.com",
+    "project_id": "riembs",
+    "storage_bucket": "riembs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472122930824:android:120c4b8fdd824de903d13d",
+        "android_client_info": {
+          "package_name": "com.example.mbs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472122930824-o2fin2jhj6an22mqdkmpaoel3kcs1sf3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mbs",
+            "certificate_hash": "599c07391c1fb455a668935b66697fde7fdfd96a"
+          }
+        },
+        {
+          "client_id": "472122930824-64dro1lt21opair8ksfp81kbit4k0pde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYdfgrtk4dzGL9mSZ33sLDJIrroKrV0Hk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472122930824-64dro1lt21opair8ksfp81kbit4k0pde.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Niecshen</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="review">REVIEW</string>
+    <string name="memories">MEMORIES</string>
+    <string name="new_year_message">NEW YEAR MESSAGE</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

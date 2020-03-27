@@ -1,0 +1,14 @@
+F:\gitrepository\android_andela\MVVMExpenses\MVVMExpenses\bin\Debug\MVVMExpenses.exe.config
+F:\gitrepository\android_andela\MVVMExpenses\MVVMExpenses\bin\Debug\MVVMExpenses.exe
+F:\gitrepository\android_andela\MVVMExpenses\MVVMExpenses\bin\Debug\MVVMExpenses.pdb
+F:\gitrepository\android_andela\MVVMExpenses\MVVMExpenses\bin\Debug\EntityFramework.dll
+F:\gitrepository\android_andela\MVVMExpenses\MVVMExpenses\bin\Debug\EntityFramework.SqlServer.dll
+F:\gitrepository\android_andela\MVVMExpenses\MVVMExpenses\bin\Debug\EntityFramework.xml
+F:\gitrepository\android_andela\MVVMExpenses\MVVMExpenses\bin\Debug\EntityFramework.SqlServer.xml
+F:\gitrepository\android_andela\MVVMExpenses\MVVMExpenses\obj\Debug\MVVMExpenses.csprojAssemblyReference.cache
+F:\gitrepository\android_andela\MVVMExpenses\MVVMExpenses\obj\Debug\MVVMExpenses.Properties.Resources.resources
+F:\gitrepository\android_andela\MVVMExpenses\MVVMExpenses\obj\Debug\MVVMExpenses.csproj.GenerateResource.cache
+F:\gitrepository\android_andela\MVVMExpenses\MVVMExpenses\obj\Debug\MVVMExpenses.csproj.CoreCompileInputs.cache
+F:\gitrepository\android_andela\MVVMExpenses\MVVMExpenses\obj\Debug\MVVMExpenses.csproj.CopyComplete
+F:\gitrepository\android_andela\MVVMExpenses\MVVMExpenses\obj\Debug\MVVMExpenses.exe
+F:\gitrepository\android_andela\MVVMExpenses\MVVMExpenses\obj\Debug\MVVMExpenses.pdb

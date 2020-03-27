@@ -1,0 +1,12 @@
+F:\gitrepository\android_andela\exam_resource_center\exam_resource_center\bin\Debug\exam_resource_center.exe.config
+F:\gitrepository\android_andela\exam_resource_center\exam_resource_center\bin\Debug\exam_resource_center.exe
+F:\gitrepository\android_andela\exam_resource_center\exam_resource_center\bin\Debug\exam_resource_center.pdb
+F:\gitrepository\android_andela\exam_resource_center\exam_resource_center\bin\Debug\exam_resource_center.xml
+F:\gitrepository\android_andela\exam_resource_center\exam_resource_center\obj\Debug\exam_resource_center.vbprojAssemblyReference.cache
+F:\gitrepository\android_andela\exam_resource_center\exam_resource_center\obj\Debug\exam_resource_center.Form1.resources
+F:\gitrepository\android_andela\exam_resource_center\exam_resource_center\obj\Debug\exam_resource_center.Resources.resources
+F:\gitrepository\android_andela\exam_resource_center\exam_resource_center\obj\Debug\exam_resource_center.vbproj.GenerateResource.cache
+F:\gitrepository\android_andela\exam_resource_center\exam_resource_center\obj\Debug\exam_resource_center.vbproj.CoreCompileInputs.cache
+F:\gitrepository\android_andela\exam_resource_center\exam_resource_center\obj\Debug\exam_resource_center.exe
+F:\gitrepository\android_andela\exam_resource_center\exam_resource_center\obj\Debug\exam_resource_center.xml
+F:\gitrepository\android_andela\exam_resource_center\exam_resource_center\obj\Debug\exam_resource_center.pdb

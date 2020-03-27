@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">firebased</string>
+    <string name="desc">capture image holder</string>
+    <string name="capture_button">Click to Capture</string>
+</resources>

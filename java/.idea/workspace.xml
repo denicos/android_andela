@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8bc312f4-1491-47b3-8259-08b90bbd9b3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Mbs/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mbs/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mbs/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mbs/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mbs/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Niecshen/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Niecshen/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Niecshen/app/src/main/java/com/nie/niecshen/ReviewFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Niecshen/app/src/main/java/com/nie/niecshen/imageAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Niecshen/app/src/main/res/drawable/ic_group_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Niecshen/app/src/main/res/layout/fragment_review.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/app/src/androidTest/java/com/nie/ourtimes/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/app/src/main/java/com/nie/ourtimes/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/app/src/main/java/com/nie/ourtimes/index.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/app/src/main/res/layout/activity_index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/app/src/test/java/com/nie/ourtimes/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OurTimes/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bottle_checker/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bottle_checker/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bottle_checker/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bottle_checker/src/com/nicos/inc/collections/bottle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firebased/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firebased/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nicoswaves/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nicoswaves/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/nicos/inc/collections/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/nicos/inc/collections/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="214" />
+    <option name="y" value="276" />
+    <option name="width" value="1026" />
+    <option name="height" value="284" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.nicos.inc.collections.Main" />
+      <module name="java" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8bc312f4-1491-47b3-8259-08b90bbd9b3a" name="Default Changelist" comment="" />
+      <created>1577998681847</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577998681847</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="214" y="276" width="1026" height="284" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24948241" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/nicos/inc/collections/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

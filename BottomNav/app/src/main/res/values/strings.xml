@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">OUR TIMES </string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="in_the_beginining">GENESIS</string>
+    <string name="story">STORY</string>
+    <string name="dedications">LAST WORD</string>
+</resources>
