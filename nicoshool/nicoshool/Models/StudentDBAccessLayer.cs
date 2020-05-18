@@ -9,7 +9,7 @@ namespace nicoshool.Models
 {
     public class StudentDBAccessLayer
     {
-        SqlConnection con = new SqlConnection("Data Source=NICKLAUS\\SQL2019;Initial Catalog=nicoschool;User ID=sa;Password=***********");
+        SqlConnection con = new SqlConnection("Data Source=NICKLAUS\\SQL2019;Initial Catalog=nicoschool;User ID=sa;Password=niecshenz2020");
         public string AddStudent (StudentEntities studentEntities)
         {
             try
