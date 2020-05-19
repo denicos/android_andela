@@ -5,6 +5,20 @@ Routes and views for the flask application.
 from datetime import datetime
 from flask import render_template
 from AwarenessNews import app
+import json
+import requests
+
+
+
+url = "https://coronavirus-19-api.herokuapp.com/countries"
+data = requests.get(url)
+resolved = data.json()
+
+with open('countries.json', 'w+') as f:
+    json.dump(resolved, f, sort_keys=True, indent=4)
+f.close()
+
+
 
 @app.route('/')
 @app.route('/home')
@@ -40,22 +54,16 @@ def about():
 
 @app.route('/news')
 def news():
-    return render_template('news.html', title='News', result = get_countries())
+    return render_template('news.html',
+                           title='News',
+                           result = get_countries(),
+                          
+                           )
 
 
 def get_countries():
-    results =  {
-        "active": 56689, 
-        "cases": 276505, 
-        "casesPerOneMillion": 5914, 
-        "country": "Spain", 
-        "critical": 1208, 
-        "deaths": 27563, 
-        "deathsPerOneMillion": 590, 
-        "recovered": 192253, 
-        "testsPerOneMillion": 64977, 
-        "todayCases": 0, 
-        "todayDeaths": 0, 
-        "totalTests": 3037840
-    }
-    return results
+   with open('countries.json', 'r') as f:
+       jsonData = json.load(f)
+       
+   f.close()
+   return jsonData

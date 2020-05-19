@@ -2,41 +2,44 @@
 
 {% block content %}
 
-    <div class="jumbotron">
         <div class="well text-center">
 
             <h1> Covid Awareness News</h1>
 
         </div>
-    </div>
+
 
 
 <p class="text-center">News And Updates Information</p>
 
-<div class="container">
-    <div class="row">
-        <div class="col md-14">
             <div class="jumbotron p-3">
-                <h2> Search <b> Country </b> 
-                <button type="button" class="btn btn-success float-right">  Search Country </button>
+                <h2>
+                    Search <b> Country </b>
+                    <button type="button" class="btn btn-success float-right">  Search Country </button>
                 </h2>
             </div>
-
-            <table class="table table-dark">
+            <div class="container">
                 
+                <div class="table-responsive">
+                    <table class="table table-dark">
+                        {% for item  in  result %}
+                        <tr>
+
+                            {% for key, value in item.items() if loop.first%}
+
+                            <th> {{ key.upper()}} </th>
+
+                            {% endfor %}
+                        </tr>
+                        <tr>
+                            {% for key, value in item.items() %}
+                            
+                            <td>{{ value }}</td>
+                            {% endfor %}
+                        </tr>
+                        {% endfor %}
+                    </table>
+                </div>
                
-                    {% for key, value in result.items() %}
-                    <tr>
-                        <th> {{ key.upper()}} </th>
-                        <td> {{ value }}</td>
-                        
-                    </tr>
-
-                    {% endfor %}
-                
-            </table>
-        </div>
-    </div>
-</div>
-
+            </div>
 {% endblock %}

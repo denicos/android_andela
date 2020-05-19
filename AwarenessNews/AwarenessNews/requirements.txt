@@ -1,2 +1,4 @@
 Flask<1
 requests
+flask-paginate
+Flask-Mail

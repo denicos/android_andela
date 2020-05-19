@@ -1,42 +1,25 @@
-body {
-    padding-top: 30px;
-    padding-bottom: 10px;
+.view {
+    background: url("/static/content/images/lak.jpg")no-repeat center center;
+    background-size: cover;
 }
 
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+.navbar {
+    background-color: transparent;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
+.top-nav-collapse {
+    background-color: #4285F4;
 }
 
-/* styles for validation helpers */
-.field-validation-error {
-    color: #b94a48;
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
 }
 
-.field-validation-valid {
-    display: none;
-}
-
-input.input-validation-error {
-    border: 1px solid #b94a48;
-}
-
-input[type="checkbox"].input-validation-error {
-    border: 0 none;
-}
-
-.validation-summary-errors {
-    color: #b94a48;
-}
-
-.validation-summary-valid {
-    display: none;
+html,
+body,
+header,
+.view {
+    height: 100%;
 }
