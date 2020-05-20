@@ -43,6 +43,7 @@
     <Folder Include="AwarenessNews\static\images\gallery\" />
     <Folder Include="AwarenessNews\static\images\gallery\thumb\" />
     <Folder Include="AwarenessNews\static\images\icons\" />
+    <Folder Include="AwarenessNews\static\images\plots\" />
     <Folder Include="AwarenessNews\static\images\prettyPhoto\" />
     <Folder Include="AwarenessNews\static\images\prettyPhoto\dark_rounded\" />
     <Folder Include="AwarenessNews\static\images\prettyPhoto\dark_square\" />

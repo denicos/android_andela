@@ -3,11 +3,11 @@ Routes and views for the flask application.
 """
 
 from datetime import datetime
-from flask import render_template
+from flask import render_template, request
 from AwarenessNews import app
 import json
 import requests
-
+import matplotlib.pyplot as plt
 
 
 url = "https://coronavirus-19-api.herokuapp.com/countries"
@@ -40,14 +40,16 @@ def contact():
         message='Your contact page.'
     )
 
-@app.route('/about')
+@app.route('/about',methods=['GET', 'POST'])
 def about():
+    #global countryName
+    ##if request.method == 'POST':
+     #    countryName = request.form['s_country']
     """Renders the about page."""
     return render_template(
         'about.html',
         title='About',
-        year=datetime.now().year,
-        message='Your application description page.'
+        sit = one_country()
     )
 
 
@@ -64,6 +66,40 @@ def news():
 def get_countries():
    with open('countries.json', 'r') as f:
        jsonData = json.load(f)
+
+   county = []
+   for x in jsonData:
+       county.append({
+           "country" : x["country"],
+           "cases" : x["cases"],
+           "active" : x["active"],
+           "todayCases" : x["todayCases"],
+           "recovered" : x["recovered"],
+           "deaths" : x["deaths"],
+           "todayDeaths" :x["todayDeaths"],
+           "totalTests" : x["totalTests"]
+           })
        
    f.close()
-   return jsonData
+   return county
+
+def one_country(): 
+    with open('countries.json', 'r') as f:
+        data = json.load(f)
+
+    earth = []
+    for x in data:
+        earth.append({
+            "country" : x["country"],
+            "cases":  x["cases"],
+            "active": x["active"],
+            "todayCases" : x["todayCases"],
+            "recovered" : x["recovered"],
+            "deaths"  : x["deaths"],
+            "totalTests" : x["totalTests"]
+            })
+
+    f.close()
+    return earth
+    
+    
