@@ -10,6 +10,7 @@ import requests
 import matplotlib.pyplot as plt
 
 
+
 url = "https://coronavirus-19-api.herokuapp.com/countries"
 data = requests.get(url)
 resolved = data.json()
@@ -40,16 +41,17 @@ def contact():
         message='Your contact page.'
     )
 
+@app.route('/causes')
+def causes():
+    return render_template('causes.html')
+
 @app.route('/about',methods=['GET', 'POST'])
 def about():
-    #global countryName
-    ##if request.method == 'POST':
-     #    countryName = request.form['s_country']
     """Renders the about page."""
     return render_template(
         'about.html',
         title='About',
-        sit = one_country()
+        sit = search_country(),
     )
 
 
@@ -58,17 +60,17 @@ def about():
 def news():
     return render_template('news.html',
                            title='News',
-                           result = get_countries(),
+                           result = create_countries_list()
                           
                            )
 
 
-def get_countries():
-   with open('countries.json', 'r') as f:
+def create_countries_list():
+    with open('countries.json', 'r') as f:
        jsonData = json.load(f)
 
-   county = []
-   for x in jsonData:
+    county = []
+    for x in jsonData:
        county.append({
            "country" : x["country"],
            "cases" : x["cases"],
@@ -80,26 +82,28 @@ def get_countries():
            "totalTests" : x["totalTests"]
            })
        
-   f.close()
-   return county
-
-def one_country(): 
-    with open('countries.json', 'r') as f:
-        data = json.load(f)
-
-    earth = []
-    for x in data:
-        earth.append({
-            "country" : x["country"],
-            "cases":  x["cases"],
-            "active": x["active"],
-            "todayCases" : x["todayCases"],
-            "recovered" : x["recovered"],
-            "deaths"  : x["deaths"],
-            "totalTests" : x["totalTests"]
-            })
-
     f.close()
-    return earth
-    
-    
+    return county
+
+def search_country():
+    with open('countries.json', 'r') as f:
+       jsonData = json.load(f)
+
+    county = []
+    for x in jsonData:
+       county.append({
+           "country" : x["country"],
+           "cases" : x["cases"],
+           "active" : x["active"],
+           "todayCases" : x["todayCases"],
+           "recovered" : x["recovered"],
+           "deaths" : x["deaths"],
+           "todayDeaths" :x["todayDeaths"],
+           "totalTests" : x["totalTests"]
+           })
+
+    name = "Uganda"
+    searched = list(filter(lambda coun : coun['country'] == name, county))
+       
+    f.close()
+    return searched

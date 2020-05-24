@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+
+{% block content %}
+   <div class="well text-center">
+
+<h1> COVID-19 STATS PER COUNTRY </h1>
+
+        </div>
+   <div class="well text-center">
+       <div class="col-lg-4">
+           <div class="input-group">
+
+               <input type="text" class="form-control" placeholder="Search for Country" name="s_country">
+               <span class="input-group-btn">
+                   <button class="btn btn-info" type="button" name="search_b">SEARCH</button>
+               </span>
+
+           </div>
+       </div>
+   </div>
+
+<div class="container">
+    <table class="table table-bordered">
+        {% for county in sit %}
+        <thead>
+            <tr>
+                {% for key, value in county.items() if loop.first %}
+                <th>
+                    {{ key.upper()}}
+                </th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                {% for key, value in county.items() %}
+                <td>
+                    {{ value}}
+                </td>
+                {% endfor %}
+            </tr>
+        </tbody>
+        {% endfor %}
+    </table>
+
+</div>
+
+{% endblock %}

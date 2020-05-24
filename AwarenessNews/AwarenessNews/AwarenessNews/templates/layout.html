@@ -9,6 +9,8 @@
     <link rel="stylesheet" type="text/css" href="/static/content/style.css" />
     <link rel="stylesheet" type="text/css" href="/static/content/owl.carousel.css"/>
     <link rel="stylesheet" type="text/css" href="/static/content/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/content/Chart.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/content/Chart.min.css"/>
     <script src="/static/scripts/modernizr-2.6.2.js"></script>
 </head>
 
@@ -73,15 +75,13 @@
 
                             <li><a href="{{ url_for('home') }}">HOME</a></li>
                             <li><a href="{{ url_for('about') }}">STATISTICS</a></li>
-                            
+
                             <li class="has-child">
-                                <a href="#">CAUSES</a>
+                                <a href="#">PROTECTION</a>
 
                                 <ul class="submenu">
-                                    <li class="submenu-item"><a href="causes.html">Causes list </a></li>
-                                    <li class="submenu-item"><a href="causes-single.html">Single cause </a></li>
-                                    <li class="submenu-item"><a href="causes-single.html">Single cause </a></li>
-                                    <li class="submenu-item"><a href="causes-single.html">Single cause </a></li>
+                                    <li class="submenu-item"><a href="{{ url_for('causes') }}">ABOUT CORONA VIRUS </a></li>
+                                    
                                 </ul>
 
                             </li>
@@ -109,20 +109,24 @@
             <div class="container text-right">
                 <p class="text-center"> Niecos @ copyrights 2020 - by <a href="#" target="_blank">niecos Inc.</a></p>
             </div>
-            
+
         </div>
         <p class="text-center">&copy; {{ year }} - COVID AWARENESS</p>
     </footer> <!-- main-footer -->
-
-
-    
-        
+    <!-- <script src="/static/scripts/Chart.js"></script>
+    <script src="/static/scripts/Chart.min.js"></script>-->
 
 
     <script src="/static/scripts/jquery-1.10.2.js"></script>
     <script src="/static/scripts/jquery.js"></script>
     <script src="/static/scripts/bootstrap.js"></script>
     <script src="/static/scripts/respond.js"></script>
+    <script src="/static/scripts/main.js"></script>
+    <script src="/static/scripts/owl.carousel.js"></script>
+    <script src="/static/scripts/owl.carousel.min.js"></script>
+    <script src="/static/scripts/jquery-1.11.1.min.js"></script>
+    
+    <script src="../static/scripts/Chart.min.js"></script>
     {% block scripts %}{% endblock %}
 
 </body>

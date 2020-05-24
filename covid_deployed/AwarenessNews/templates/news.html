@@ -1,0 +1,33 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+
+        <div class="well text-center">
+
+            <h1> COVID UPDATES GLOBALLY </h1>
+
+        </div>
+                
+                <div>
+                    <table class="table table-bordered">
+                        {% for item  in  result %}
+                        <tr>
+
+                            {% for key, value in item.items() if loop.first%}
+
+                            <th class="text-center active"> {{ key.upper()}} </th>
+
+                            {% endfor %}
+                        </tr>
+                        <tr>
+                            {% for key, value in item.items() %}
+                            
+                            <td class="text-center">{{ value }}</td>
+                            {% endfor %}
+                        </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+               
+            
+{% endblock %}
