@@ -1,0 +1,14 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+    <div class="container">
+
+        <h1 >BBC HEALTH NEWS HEADLINES </h1><br/>
+        {% for article in articles %}
+        <b><a href="{{ article.link }}"> {{article.title }} </a></b> </ br>
+        <i>{{ article.Published }} </i> </ br>
+        <p>{{ article.summary }}</p> </ br>
+         <hr />
+        {% endfor %}
+    </div>
+{% endblock %}

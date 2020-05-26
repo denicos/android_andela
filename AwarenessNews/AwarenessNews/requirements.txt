@@ -3,3 +3,4 @@ requests
 flask-paginate
 Flask-Mail
 matplotlib
+feedparser

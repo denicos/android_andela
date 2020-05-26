@@ -8,7 +8,10 @@ from AwarenessNews import app
 import json
 import requests
 import matplotlib.pyplot as plt
+import feedparser
 
+
+BBC_FEED = "http://feeds.bbci.co.uk/news/health/rss.xml"
 
 
 url = "https://coronavirus-19-api.herokuapp.com/countries"
@@ -63,6 +66,11 @@ def news():
                            result = create_countries_list()
                           
                            )
+
+@app.route('/headlines')
+def headlines():
+    feeds = feedparser.parse(BBC_FEED)
+    return render_template('headlines.html', articles = feeds['entries'])
 
 
 def create_countries_list():

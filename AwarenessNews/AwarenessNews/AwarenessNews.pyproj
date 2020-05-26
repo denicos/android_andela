@@ -206,6 +206,7 @@
     <Content Include="AwarenessNews\static\scripts\owl.carousel.js" />
     <Content Include="AwarenessNews\static\scripts\owl.carousel.min.js" />
     <Content Include="AwarenessNews\templates\causes.html" />
+    <Content Include="AwarenessNews\templates\headlines.html" />
     <Content Include="AwarenessNews\templates\news.html" />
     <None Include="FolderProfile.pubxml" />
     <Content Include="requirements.txt" />

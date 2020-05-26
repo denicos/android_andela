@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <div>
+        <form action="{{ url_for('contact') }}" method="post">
+            <input type="text"  name="publication" placeholder="Search"/>
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+<h1>Headlines </h1>
+{% for article in articles %}
+<b><a href="{{ article.link }}"> {{article.title }} </a></b> </ br>
+<i>{{ article.Published }} </i> </ br>
+<p>{{ article.summary }}</p> </ br>
+<hr/>
+{% endfor %}
+{% endblock %}
